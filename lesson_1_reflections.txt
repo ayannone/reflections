@@ -1,0 +1,47 @@
+
+Lesson 1 - Reflections
+============================================================
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+==============================
+diff -u old-file.txt new-file.txt
+
+diff is useful to quickly find the lines where code has changed, so in order to find differences or error I only need to concentrate on the marked lines that indicate changes...
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+==============================
+I could easily reactivate an old version and work from there. I have backup copies in case something breaks.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+==============================
+Pros:
+- control over versions, logically separated
+- commit messages that help understand, what changes have been made / added to that version
+Cons:
+- always have to remember to commit changes
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+==============================
+Git saves all files together, because they create a snapshot of the repository that - if reverted to an older version - will always work in its unit
+
+Google Docs treats files separately because to open one document has no dependency on another
+
+
+How can you use the commands git log and git diff to view the history of files?
+==============================
+git log shows all the different commits / versions, git diff uses the commit / version numbers to show differences between them
+
+
+How might using version control make you more confident to make changes that could break something?
+==============================
+because I can always go back to a (functioning) previous versions and compare the code
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+==============================
+To backup all my projects and create a history of versions that allows me to make changes or experiment with the code without the fear of permanently breaking or losing it
+
+

@@ -1,0 +1,41 @@
+
+Lesson 2 - Reflections
+============================================================
+
+What happens when you initialize a repository? Why do you need to do it?
+==============================
+It creates a README file and tells Git to keep track of all changes in that directory. It tracks changes, addition and deletion of files. 
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+==============================
+While changes in the working directory (file changes, additions, deletions) are not going to be committed, all files in the staging are part of the next snapshot created through a Git commit. It lets the user consciously choose which changes to include into the next commit.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+==============================
+By adding or deleting files in the staging area and commit the changes together.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+==============================
+When creating new features, splitting work amongst the team, making experimental changes…
+All branches can be worked on separately and then merged together.
+
+
+How do the diagrams help you visualize the branch structure?
+==============================
+It shows where branches have been created, which commits have been executed and when the branches have been merged back together.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+==============================
+All the commits are going into one branch, ordered by their timestamp. In the diagram we can see exactly which commit has been executed in which branch before they have been merged together.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+==============================
+Pros: Git is smart enough to merge code from different branches that does not conflict with each other, which is faster than a manual merge and more reliable, because code changes aren’t getting overlooked. 
+
+Cons: Since Git cannot automatically merge the same code that has been changed by different parties, it slows down the merging process because all involved programmers (or at least one) have to determine which version is the one that needs to get merged. But this procedure is at the same time a pro because it assures that the “right” code is being merged and not what Git would assume to be the “right” version.
+
