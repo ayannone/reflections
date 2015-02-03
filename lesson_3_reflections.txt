@@ -1,14 +1,17 @@
 Lesson 3 - Reflections
 
+
 When would you want to use a remote repository rather than keeping all your work local?
 ==================
 - to create a backup copy of my repository
 - to share my work with other (developers)
 - to collaborate on a project
 
+
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 ==================
 because for example your local work might not be finished yet and you want to keep it in a logical unit without other code changes interfering with it
+
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 ==================
@@ -23,8 +26,14 @@ What is the benefit of having a copy of the last known state of the remote store
 ==================
 The local copy of the remote can fetch changes from GitHub and then automatically do a fast forward merge or indiciate if there is a merge conflict before the local changes are being pushed to the remote repo.
 
+
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 ==================
 Without Git or GitHub a team  would have to manually distribute copies of the code and compare it when merging changes. I cannot see that a collaboration without using a Git/GitHub is any easier, more the opposite is the case...
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+==================
+When there are different people working parallel on the code on different parts / functions.  They all can work independently and merge their results to the master branch once they are done.
 
 
